@@ -40,16 +40,30 @@ p {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 65px;
+    font-size: 60px;
   }
   h2 {
     font-size: 32px;
   }
   h3 {
     font-size: 18px;
+    margin: 20px;
   }
 
   p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .about-part2 {
+    display: none;
+  }
+
+  #weather {
+    display: none;
+  }
+
+  #yogurt {
     display: none;
   }
 }
